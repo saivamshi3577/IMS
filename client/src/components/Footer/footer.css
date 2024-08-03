@@ -1,0 +1,138 @@
+
+.footer-ims{
+    /* margin-left: 45px;  */
+    margin-top: 55px;
+    /* margin-right: 100px; */
+    height: 175px;
+    /* width: 50%; */
+    width: auto;
+}
+.footer-h1{
+    font-family: sohith;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    /* margin-right: 90px; */
+}
+.footer-p{
+    font-family: sohith;
+    /* font-size: 24px; */
+    font-weight: 400;
+    /* line-height: 32px; */
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    /* margin-right: 90px; */
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2%;
+    flex-wrap: wrap;
+    width: fit-content;  
+    /* height: auto;  */
+    background-color: red;
+}
+.footer-para1{
+    /* height: 10px; */
+    /* width: 25%; */
+    line-height: 10px;
+}
+.footer-para2{
+    /* height: 150%; */
+    /* width: 25%; */
+    line-height: 13px;
+}
+.footer-para3{
+   width: 20%;
+   line-height: 20px;
+}
+.footer-images{
+    /* margin-right: 80%; */
+    
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: row; */
+}
+
+.C img{
+    width:22%;
+    /* display: flex;
+    flex-direction: column; */
+}
+/* .fhead{
+    /* width: 133%; 
+} */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -13%;
+    width: 50%;
+
+}
+
+.footer-item .footer-a{
+    width: 4.8rem;
+    height: 4.8rem;
+    /* background-color: #f0f9fe;
+    border: 3px solid #f0f9fe; */
+    overflow: hidden;
+    z-index: 1;
+}
+
+.footer-item .footer-a::before {
+    content: "";
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    background-color: var(--bg-color);
+    z-index: 0;
+    scale: 1 0;
+    transform-origin: bottom;
+    transition: scale 0.5s ease;
+}
+
+.footer-item:hover .footer-a::before{
+    scale: 1 1;
+}
+
+.footer-item{
+    /* text-decoration: none; */
+    list-style: none;
+
+}
+
+.footer-icon{
+    font-size: 2rem;
+    color: hsl(203, 92%, 8%);
+    transition: 0.5s ease;
+    z-index: 2;
+    
+}
+
+.footer-item .footer-a:hover .footer-icon{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.footer-item:nth-child(1){
+    --bg-color:hsl(338, 34%, 40%);
+}
+
+
+.footer-item:nth-child(2){
+    --bg-color:hsl(201, 100%, 35%);
+}
+
+.footer-item:nth-child(3){
+    --bg-color:hsl(0, 100%, 50%);
+}
+
+@font-face{
+    font-family: sohith; 
+    src: url("../font/PTSerif-Regular.ttf");
+}

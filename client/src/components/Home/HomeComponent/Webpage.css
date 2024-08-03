@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 100%;
+}
+
+.contentDiv {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%; 
+}
+
+.emerging {
+  color: #E51A1E;
+  font-family: pt;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0em;
+  font-weight: bold;
+}
+.emerging1{
+  color:rgb(44, 42, 42);
+  font-family: pt;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0em;
+  font-weight: bold;
+}
+
+.heading1,
+.heading2 {
+  font-family: pt;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0em;
+  font-weight: bold;
+}
+
+
+.widthAdjust {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#mainDiv {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: pt;
+  src: url("../../font/PTSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../../font/Montserrat-VariableFont_wght.ttf");
+}
+
+.para1,
+.para2 {
+  font-family: pt;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.para1 {
+  margin-top: 15px;
+}
+
+.learnButton {
+  margin-top: 5px;
+  background-color: #E51A1E;
+  border-radius: 8px;
+}
+
+.imagesDiv {
+  display: flex;
+  margin-top: 15px;
+  border: 1px solid #E51A1E;
+  border-radius: 6px;
+  width: 405px;
+  height: 70px;
+  padding: 5px;
+  padding-top: 15px;
+  padding-right: 5px;
+}
+
+.imagesDiv div img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.imagesDiv div h4 {
+  font-family: montserrat;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #E51A1E;
+
+}

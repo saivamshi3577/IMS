@@ -1,0 +1,134 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.mainBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesList {
+    width: 921px;
+    height: 420.04px;
+    top: 1702.34px;
+    left: 390.02px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.servicesHeading {
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E51A1E;
+}
+
+.ourServices {
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #282639E5;
+}
+
+.discriptionWithImage {
+    width: 100vw;
+    height: 368.68px;
+    padding-inline: 65px;
+    top: 2137.57px;
+    left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 38px;
+}
+
+.imageBox {
+    /* max-width: 369.15px; */
+    max-width: 30%;
+    height: 360.68px;
+    top: 2137.57px;
+    left: 650.46px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.serviceImage {
+    width: 369.15px;
+    height: 270.28px;
+    /* top: 2137.57px;
+    left: 650.46px; */
+    box-shadow: 2px 1px 5px -5px red;
+    /* z-index: 1; */
+
+    /* position:absolute; */
+}
+
+.serviceImage img{
+    /* height:300px; */
+    width: 369.15px;
+    /* object-fit:contain; */
+    object-fit: cover;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* width: 316.47px; */
+    width: 75%;
+    min-height: 138.68px;
+    /* top: 2367.56px;
+    left: 676.8px; */
+    font-family: PT Serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: 1px 1px 10px 0px rgb(238, 146, 146);
+    background-color: #F4EBEE;
+    margin-left: 25px;
+    transform: translate(0px, -50px);
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    padding-inline: 5px;
+
+}
+
+
+.descriptionInfo{
+    margin-top: 18px;
+}
+.readMore {
+    width: 122.23px;
+    height: 23.83px;
+    /* top: 2470.32px;
+    left: 775.72px; */
+    font-family: PT Serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E51A1E;
+    /* transform: translate(0px,-50px);  */
+    margin-top: auto;
+    
+    /* padding-top:150px; */
+}
+
+

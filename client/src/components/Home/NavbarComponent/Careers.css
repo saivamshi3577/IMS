@@ -1,0 +1,99 @@
+.image {
+    width: 100%;
+    margin-top: -5%;
+    /* height: 90%; */
+    transform: translate(0,1%);
+     
+}
+/* .bar{
+    background-image: url("../../Photos/careers1.png");
+     background-size: cover;
+     width: 100%;
+     height: 1000px;
+     margin-top: -20%;
+     z-index: 5;
+} */
+
+
+.bg-career-container {
+    position: absolute;
+    margin-top: 30px;
+}
+
+input {
+    /* position: relative; */
+  
+    margin-left: 250px;
+    width: 650px;
+    height: 3.9rem;
+    border: 1px;
+    border: 1px solid #000000
+    
+}
+
+.career-heading {
+    font-family: PT Serif;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 113px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E51A1E;
+    height: 134.12px;
+    padding-top: 50px;
+    padding-left: 75px;
+    margin-top: 10%;
+}
+
+.location{
+    /* position: relative; */
+    width: 300px;
+    border: 1px;
+    border: 1px solid #000000;
+     height: 3.9rem;
+    font-family: font;
+    font-size: 20px;
+    font-weight: 400;
+  
+}
+
+.location-container{
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    padding-bottom: 120px;
+
+}
+
+.fa-location-dot{
+    left: 5px;
+    position: absolute;
+    top: 21%;
+    transform: translate(50%);
+}
+select{
+    padding-left: 24px;
+    padding: -10px;
+    
+}
+input::placeholder{
+   
+    color: gray;
+    font-family: font;
+    font-weight: 400;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 8%;
+}
+
+
+
+
+
+
+
+

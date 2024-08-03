@@ -1,0 +1,171 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}  
+
+.mainDiv {
+    background-image: url('../../Photos/handshake.png');
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    height:auto; 
+    width:auto; 
+    position: relative;
+}
+.red{
+    width: 100vw;
+}
+.ims{
+    height: 180px;
+    width: 180px;
+    /* margin-right: 213px; */ 
+    position: absolute; 
+    left: 65px; 
+    top:20px;  
+
+}
+.card{ 
+    /* display:inline-block; */
+    height: 335px;
+    border-radius: 15px;
+    margin-right: 750px;
+    /* angle: -0 deg; */
+    background-color:  #E51A1E;
+    box-shadow: 0px 4px 4px 0px #074457; 
+    margin-top: -90px; 
+    /* padding-top: 30px;  */
+    padding-left:26px;
+    /* position: relative; */
+    margin-left: 20%;
+}
+#card1 {
+    width:330px
+}
+
+.heading1{
+    font-family: sohith;
+    font-size: 34px;
+    font-weight: 400;
+     line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #FFFFFF;
+    margin-left: 15px;
+    /* width: 221.84px;
+    height: 54.62px;
+    top: 212.4px;
+    left: 321.35px;
+    angle: -0 deg; */
+    /* margin-top: -5%; */
+}
+
+.text{
+    font-family: sohith;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-left: 95px;
+    /* margin-bottom: 5px; */
+    color: #FFFFFF;
+    /* width: 196.93px;
+    height: 17.51px;
+    top: 278.94px;
+    left: 492.2px; */
+    /* angle: -0 deg; */
+}
+.text2{
+    width: 186.32px;
+    height: 14.72px;
+    top: 450.2px;
+    left: 328px;
+    font-family: Jomolhari;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    margin-right:120px
+
+
+}
+
+.checkBox{
+    margin-right: 8px;
+    margin-top: 2PX;
+}
+/* .inputBox{
+    padding-left: 6px;
+    font-family: sohith;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 280.29px;
+    height: 38px;
+    border: none;
+    margin:5px;
+    color: #00000080 50%;
+    border-radius: 10px;
+    margin-top: -10%;
+} */
+
+button{
+    background-color: #FFEB33;
+    width: 92.24px;
+    height: 42.82px;
+    top: 473.74px;
+    left: 357.65px;
+    /* angle: -0 deg; */
+
+}
+
+.btn1{
+    font-family: sohith;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    height:35px;
+    border:none;
+    margin-right:155px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+
+
+    
+    /* width: 79.48px;
+    height: 35.29px;
+    top: 477.76px;
+    left: 361.83px; */
+    /* angle: -0 deg; */
+    color: #000000;
+}
+
+h2{
+    font-family: sohith;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-right: 90px;
+
+
+}
+
+
+
+@font-face{
+    font-family: sohith; 
+    src: url("../../font/Jomolhari-Regular.ttf");
+}
+
+/* @media screen and (min-width:"768") {
+     
+} */

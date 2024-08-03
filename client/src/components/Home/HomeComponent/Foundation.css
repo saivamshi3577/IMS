@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.wholeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstDiv {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 6%;
+}
+
+.foundationDiv {
+    width: 55%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.foundationDiv h2 {
+    font-family: PT;
+    color: #E51A1E;
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.foundationDiv p {
+    font-family: PT;
+    color: black;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.kitchenImg {
+    width: 400px;
+    object-fit: contain;
+}
+
+@font-face {
+    font-family: PT;
+    src: url("../../font/PTSerif-Regular.ttf");
+}
+
+.secondDiv {
+    /* background-color: aqua; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+
+}
+
+.imgAdjust{
+    width: 55%;
+}
+#imageCss{
+    width: 95%;
+}
+
+
+.infoAdjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondDiv .imgAdjust img {
+    height: 400px;
+    width: 550px;
+    object-fit: contain;
+}
+
+.overView{
+    margin-left: 4%;
+} 
+.overView h2 {
+    font-family: PT;
+    color: #E51A1E;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+.overView p {
+    font-family: PT;
+    color: black;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.thirdDiv {
+    display: flex;
+}
+
+.thirdDiv div {
+    background-color: #E51A1E;
+    margin-right: 75px;
+    padding: 10px;
+    width: 30%;
+    height: 171px;
+    border-radius: 10px;
+    border: none;
+}
+
+.thirdDiv h3 {
+    color: #ffff;
+    font-family: PT;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 500;
+
+}
+
+.thirdDiv p {
+    color: #ffff;
+    font-family: PT;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+.thirdFirstDiv {
+    margin-left: 75px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../../font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.fourthDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 55%;
+    height: 285px;
+    box-shadow: 0px 4px 3px 0px rgb(53, 50, 50);
+    border-radius: 13px;
+}
+
+.fourthDivHeading1 {
+    font-family: Inter;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.12rem;
+    margin-bottom: 20px;
+    margin-top: 3%;
+}
+
+.numberContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+
+}
+
+.numberContainer h4 {
+    font-family: Inter;
+    color: #E51A1E;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.numberContainer h6 {
+    font-family: Inter;
+    margin-left: -10px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+
+.fourthDivHeading2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: inline-block;
+    width: 60%;
+    margin-top: 12px;
+}
+
+#revenue,
+#connected {
+    margin-top: -10px;
+}
+
+
+#global {
+    margin-left: -40px;
+}
+
+#total {
+    margin-left: -38px;
+}
+#dummy2{
+    height: 45px;
+}

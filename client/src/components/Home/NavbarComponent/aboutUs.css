@@ -1,0 +1,67 @@
+.heading{
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:red;
+    padding:15px
+
+}
+.paragraph{
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.background-images{
+    color: #D9D9D9;
+    padding:25px;
+    aspect-ratio: 3/2 auto;
+}
+.imagees{
+    aspect-ratio: 3/4;
+}
+.background{
+    display:flex;
+    align-items: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+.employees{
+    font-family: PT Serif;
+font-size: 40px;
+font-weight: 700;
+
+text-align: left;
+color:black;
+}
+.image2-width{
+    aspect-ratio: 3/2 ;
+    height:300px;
+    width:370px
+}
+@media screen and (max-width: 900px){
+    .background{
+        display:flex;
+        align-items: column;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    
+    }
+
+    
+}
+
+.para{
+    color:black;
+    font-weight: bold;
+    font-size: medium;
+}
